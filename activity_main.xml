@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#008080"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nhập ngày tháng năm sinh -->
+
+    <!-- Hiển thị tuổi -->
+
+    <EditText
+        android:id="@+id/edtBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:hint="Enter your birth date (dd/MM/yyyy)"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Age Show Here"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <!-- Nút tính tuổi -->
+    <Button
+        android:id="@+id/btnGetAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#800080"
+        android:text="GET MY AGE"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
